@@ -1,0 +1,73 @@
+#ramka {
+    position: relative;
+    border: 2px solid pink;
+    width: 480px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+#ramka img {
+    position: absolute;
+    width: 480px;
+    height: 280px;
+    animation-name: slajd;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    transition-timing-function:5s;
+}
+
+@keyframes slajd {
+    0% {
+        opacity: 1;
+    }
+    6% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 0;
+    }
+    77% {
+        opacity: 0;
+    }
+    88% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#ramka img.s1 {   
+    animation-delay: 0s;
+
+}
+
+#ramka img.s2 {
+    animation-delay: 6s;
+
+
+}
+
+#ramka img.s3 {
+    animation-delay: 12s;
+
+
+}
+
+#ramka img.s4 {
+
+    animation-delay: 18s;
+
+
+}
+
+#ramka img.s5 {
+    animation-delay: 24s;
+
+}

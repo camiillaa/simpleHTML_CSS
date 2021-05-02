@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<title>Kalkulator podatków</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="podatki.js"></script>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <div id="panel">
+    <div id="naglowek">
+      Kalkulator podatków
+    </div>
+
+    <div id="kalkulator">
+      Pensja brutto:
+      <input type="number" id="brutto" placeholder="Pensja brutto" required>
+      <select id="stan" onchange="podatek()">
+        <option value="0">Wybierz stan</option>
+        <option value="1">Alabama</option>
+        <option value="2">Alaska</option>
+        <option value="3">Arizona</option>
+        <option value="4">Arkansas</option>
+      </select>
+
+      <div id="info"></div>
+      <hr>
+
+          Wielkość podatku: <input type="text" disabled id="podatek"><br>
+          Pensja netto: <input type="text" disabled id="netto">
+
+        <div id="przyciski">
+          <button onclick="oblicz()">Oblicz</button>
+          <button onclick="czysc()">Wyczyść</button>
+        </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(220, 244, 255);
+    /* margin: 0; */
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* margin-left:10%;
+    margin-right: 10%; */
+    margin: 10%;
+}
+
+section div {
+
+    /* overflow: hidden; */
+    display: block;
+    width: 500px;
+    height: 420px;
+    padding: 16px;
+    box-shadow: 3px -4px 12px -1px rgb(139, 134, 139);
+    margin: -100px;
+    /*kartkioboksiebie*/
+    float: left;
+    opacity: 0.95;
+
+
+}
+
+div p {
+    background-color: rgb(226, 226, 226);
+    /* float: right; */
+    width: 200px;
+    text-align: right;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 8px;
+    /* padding-left: 50px; */
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+
+
+}
+
+div:nth-child(1) {
+    background-image: url('drzewko.jpeg');
+    transform: rotate(-7deg);
+    position: relative;
+    top: 40px;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    /* z-index: -2; */
+}
+
+div:nth-child(2) {
+    width: 400px;
+    height: 550px;
+    background-image: url('mlyn.jpg');
+    transform: rotate(14deg);
+    background-position: center;
+    background-size: 550px 590px;
+    position: relative;
+    top: 100px;
+    /* z-index: -1; */
+}
+
+div:nth-child(3) {
+    background-image: url('obrazek3.jpg');
+    transform: rotate(6deg);
+    position: relative;
+    top: 20px;
+    z-index: 2;
+}
+
+div:nth-child(4) {
+    background-image: url('obrazek4.jpg');
+    transform: rotate(-5deg);
+    position: relative;
+    top: -20px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    z-index: 2;
+}
+
+div:nth-child(5) {
+    width: 450px;
+    height: 400px;
+    background-image: url('obrazek5.jpg');
+    transform: rotate(-4deg);
+    position: relative;
+    top: 130px;
+    right: 70px;
+    z-index: 1;
+}
+
+div:nth-child(6) {
+    background-image: url('obrazek6.jpg');
+    transform: rotate(-2deg);
+    position: relative;
+    top: 110px;
+    left: 50px;
+
+}
+
+div:hover {
+    transform: scale(1.05);
+    box-shadow: 3px -4px 12px -1px rgb(139, 134, 139);
+    /*wysuwaniekartkinadinnymielementami*/
+    z-index: 3;
+}

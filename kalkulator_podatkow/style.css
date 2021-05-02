@@ -1,0 +1,87 @@
+body {
+  background-color: #141f1f;
+  font-family:'Times New Roman';
+}
+
+#panel {
+  background-color:  #e0ebeb;
+  width:440px;
+  height:440px;
+  margin:50px auto;
+  border-radius: 9px;
+  box-shadow: 8px 2px 3px 4px black;
+
+}
+
+#naglowek {
+width:100%;
+height:65px;
+background-color: #283e3e;
+color:#fff;
+text-align: center;
+font-size: 21px;
+font-weight: bold;
+line-height: 65px;
+  border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-shadow: 2px 1px 1px #000;
+}
+
+#kalkulator {
+  width:80%;
+  padding:20px;
+
+}
+
+
+#panel button {
+  width:130px;
+  height:30px;
+  background-color: #283e3e;
+  color:#fff;
+  margin-left: 20px;
+  border:none;
+  outline: none;
+  font-family:'Times New Roman';
+}
+
+#info {
+  position: relative;
+  width:100%;
+  height:60px;
+  line-height: 60px;
+clear:both;
+text-align: center;
+}
+
+#panel hr {
+  clear:both;
+  margin-top:-20px;
+}
+#przyciski {
+  width:330px;
+  margin:30px auto;
+}
+
+#panel input  {
+  margin-top:20px;
+  height:30px;
+  width:180px;
+}
+
+#panel select {
+  height:30px;
+  width:180px;
+  float:right;
+  margin-right:80px;
+  margin-top:10px;
+   font-family:'Times New Roman';
+}
+#brutto {
+	font-family:'Times New Roman';
+}
+
+
+#podatek {
+  width:145px !important;
+}
